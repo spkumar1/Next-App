@@ -213,14 +213,18 @@ export default function Home() {
             </li>
           ))}
           <li className="lg:col-span-2 flex gap-4">
-            <div className="flex-1 p-6 flex relative flex-col h-[11rem] rounded-lg bg-[#E2F5FB] lg:col-span-2 ">
-              <h4 className="text-primary font-bold">Lactobacillus</h4>
-              <p className="mt-4 text-secondary">
-                Invigorate your gut microbiome
-              </p>
+            <div className="flex-1  flex relative flex-col h-[11rem] rounded-lg bg-[#E2F5FB] lg:col-span-2 ">
+              <div className="z-10 p-6 ">
+                <h4 className="text-primary font-bold">Lactobacillus</h4>
+                <p className="mt-4 text-secondary">
+                  Invigorate your gut microbiome
+                </p>
+              </div>
+              .
               <a className="underline text-primary uppercase left-[23px] absolute z-10 bottom-3">
                 See more
               </a>
+              <Image src={b5} alt={"i"} fill />
             </div>
             <div className="h-full w-[7rem]">
               <section className="half-circle"></section>
