@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#17414F",
+        secondary: "#727272",
+      },
+      fontFamily: {
+        custom: ["Poppins", "sans-serif"],
       },
     },
   },

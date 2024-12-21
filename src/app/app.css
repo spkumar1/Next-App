@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&family=Unbounded:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+}
+
+img {
+  scale: 1;
+  transition: all 0.1s ease-in-out;
+}
+img:hover {
+  scale: 0.9;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: var(--background);
+  box-sizing: border-box;
+}
+button {
+  font-weight: bold;
+  padding: 8px 23px;
+  color: #fff;
+  background: #17414f;
+  border-radius: 20px;
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bottle-background {
+  background: #ffe9b5;
+  height: 18rem;
+  width: 18rem;
+  border-top-left-radius: 118px;
+  border-bottom-right-radius: 90px;
+}
+.bot-top {
+  top: -4rem !important;
+}
+.half-circle {
+  background: #6bd3f4;
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 100%;
+}
+.date-tag {
+  position: absolute;
+  left: -14px;
+  top: 1.5rem;
+  background: #453683;
+  color: white;
+  font-weight: bold;
+  padding: 5px 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+/* Mobile */
+
+@media (max-width: 767px) {
+  .wrapper {
+    width: 95%;
+  }
+}
